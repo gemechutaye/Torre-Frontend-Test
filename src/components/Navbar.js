@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <nav>
             <p className={styles.title}>Torre.<span className={styles.title2}>CO</span></p>
-            <h4 className={styles.title3}> <  AiOutlineSearch /> SIGN IN</h4>
+            <h4 className={styles.title3}> < AiOutlineSearch /> SIGN IN</h4>
         </nav>
         
     )
