@@ -1,18 +1,21 @@
 import React from "react";
 import styles from "./Info.module.css";
 import ProfilePicture from "../assets/Ge200.jpg";
-import emailLogo from "../assets/Email-logo.png";
+import Hexagon from './Hexagon'
 
 
 export default function Info() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <img
-          className={styles.avatar}
-          src={ProfilePicture}
-          alt="Gemechu Taye"
-        />
+        <Hexagon backgroundImage={ProfilePicture} style={{stroke: '#828282'}}>
+            <foreignObject className="foreign-object" x="0%" y="25%" width="100%">
+              <p style={{padding: 20, textAlign: 'center'}}>
+                HTML text!<br />
+                <span style={{fontSize: '0.5em'}}>(not universally supported)</span>
+              </p>
+            </foreignObject>
+          </Hexagon>
       </header>
       <div className={styles.bio}>
         <h1 className={styles.name}>Gemechu Taye</h1>
@@ -20,9 +23,8 @@ export default function Info() {
           
         </div>
       </div>
+    
+
     </div>
   );
 }
-
-
-

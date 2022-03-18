@@ -1,0 +1,40 @@
+.interest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 300px;
+  padding: 0 25px 48px 25px;
+}
+
+.header {
+  margin: 0;
+  display: block;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-size-adjust: 100%;
+  padding-bottom: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.texts {
+  padding-top: 30px;
+  margin: 0;
+  font-size: 12px;
+  text-align: left;
+  text-size-adjust: 100%;
+  font-weight:100;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+  font: inter;
+  box-sizing: border-box;
+  border-inline-start-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid #424141;
+  border-radius: 25px;
+  background: #424141;
+  width: 85px;
+  padding: 10px;
+}

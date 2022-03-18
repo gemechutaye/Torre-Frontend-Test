@@ -20,13 +20,13 @@ nav {
 
 .nav--logo_text {
     margin-right: auto;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 700;
     font-size: 22px;
 }
 
 .title {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.9);;
     font-weight: 600px;
     align-items: left;
     height: 20px;
@@ -34,6 +34,28 @@ nav {
     border-radius: 20px;
 
 }
+
+.title2 {
+    color: rgba(172, 216, 13, 0.9);
+    font-weight: 400px;
+    align-items: left;
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.title3 {
+    color: rgba(177, 216, 13, 0.9);;
+    font-weight: 400px;
+    align-items: left;
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+
 
 .nav--icon {
     height: 30px;
