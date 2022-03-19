@@ -7,8 +7,8 @@ export default function About() {
     <main className={styles.about}>
       <p className={styles.header}> Skills and interest: </p>
       <p className={styles.header}><FaRunning /> Master / Infulencer</p>
-      <br></br>
-      <p className={styles.texts2}>Master </p>
+      <p className={styles.texts2}>Software Development </p>
+      <p className={styles.texts2}>Team management </p>
       
     </main>
   );

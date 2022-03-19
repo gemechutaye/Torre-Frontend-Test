@@ -7,6 +7,7 @@ export default function Interest() {
     <main className={styles.interest}>
       <p className={styles.header}><FaRunning /> Proficient</p>
       <p className={styles.texts}>Unit testing</p>
+      <p className={styles.texts2}>Data Analysis</p>
     </main>
   );
 }

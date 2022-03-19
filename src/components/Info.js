@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Info.module.css";
 import ProfilePicture from "../assets/Ge200.jpg";
 import Hexagon from './Hexagon'
+import { MdOutlineVerified } from 'react-icons/md';
 
 
 export default function Info() {
@@ -18,7 +19,7 @@ export default function Info() {
           </Hexagon>
       </header>
       <div className={styles.bio}>
-        <h1 className={styles.name}>Gemechu Taye</h1>
+        <h1 className={styles.name}>Gemechu Taye <MdOutlineVerified /></h1>
         <div className={styles.contacts}>
           
         </div>
