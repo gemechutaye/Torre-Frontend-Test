@@ -5,7 +5,6 @@ import Info from "./components/Info";
 import About from "./components/Master";
 import Proficient from "./components/Proficient";
 import Expert from "./components/Expert";
-import Contacts from './components/contacts';
 
 export default function App() {
   return (
