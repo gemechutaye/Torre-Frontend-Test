@@ -1,7 +1,9 @@
 # Software Developer Technical Test
 
 </br>
+
 ![This is an image](https://github.com/Gemechu-Taye/Torre-Frontend-Test/blob/master/torre-ui-design.png)
+
 </br>
 
 # Getting Started with Create React App
